@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="smartest_dog_breeds">
+        <item>1. Golden Retriever</item>
+        <item>2. Border Collie</item>
+        <item>3. Poodle</item>
+        <item>4. German Shepherd</item>
+        <item>5. Doberman Pinscher</item>
+        <item>6. Shetland Sheepdog</item>
+        <item>7. Labrador Retriever</item>
+        <item>8. Papillon</item>
+        <item>9. Rottweiler</item>
+        <item>10. Australian Cattle Dog</item>
+    </string-array>
+</resources>

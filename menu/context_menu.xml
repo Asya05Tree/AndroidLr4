@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/text_color_gray"
+        android:title="Сірий текст" />
+    <item
+        android:id="@+id/text_color_blue"
+        android:title="Синій текст" />
+    <item
+        android:id="@+id/text_color_brown"
+        android:title="Коричневий текст" />
+    <item
+        android:id="@+id/text_color_purple"
+        android:title="Фіолетовий текст" />
+    <item
+        android:id="@+id/text_color_red"
+        android:title="Червоний текст" />
+    <item
+        android:id="@+id/text_color_green"
+        android:title="Зелений текст" />
+    <item
+        android:id="@+id/text_color_pink"
+        android:title="Рожевий текст" />
+    <item
+        android:id="@+id/text_color_orange"
+        android:title="Помаранчевий текст" />
+</menu>

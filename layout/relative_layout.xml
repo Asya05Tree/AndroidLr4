@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginTop="200dp">
+
+    <TextView
+        android:id="@+id/relativeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RelativeLayout"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/relativeDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дозволяє розміщувати елементи відносно один одного або батьківського елемента"
+        android:layout_below="@id/relativeTitle"/>
+
+    <Button
+        android:id="@+id/relativeButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 1"
+        android:layout_below="@id/relativeDesc"/>
+
+    <Button
+        android:id="@+id/relativeButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кнопка 2"
+        android:layout_toEndOf="@id/relativeButton1"
+        android:layout_alignTop="@id/relativeButton1"/>
+</RelativeLayout>

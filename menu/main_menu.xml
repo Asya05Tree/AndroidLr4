@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_background_color"
+        android:title="Фоновий колір">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/color_gray"
+                    android:title="Сірий" />
+                <item
+                    android:id="@+id/color_blue"
+                    android:title="Синій" />
+                <item
+                    android:id="@+id/color_brown"
+                    android:title="Коричневий" />
+                <item
+                    android:id="@+id/color_purple"
+                    android:title="Фіолетовий" />
+                <item
+                    android:id="@+id/color_red"
+                    android:title="Червоний" />
+                <item
+                    android:id="@+id/color_green"
+                    android:title="Зелений" />
+                <item
+                    android:id="@+id/color_pink"
+                    android:title="Рожевий" />
+                <item
+                    android:id="@+id/color_orange"
+                    android:title="Помаранчевий" />
+            </group>
+        </menu>
+    </item>
+</menu>
